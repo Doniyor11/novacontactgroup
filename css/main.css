@@ -1,0 +1,1073 @@
+body {
+    background-color: #1d1c21;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #6a5b48 !important;
+    width: 87% !important;
+}
+
+
+.btn-5 {
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-5:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+header {
+    height: 100vh;
+    background-image: url(../img/bghead.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.modal-content {
+    color: white;
+    background-color: #060506;
+}
+
+.modal-header {
+    border-bottom:  none;
+}
+
+.modal-header .close {
+    color: #fff;
+}
+
+.close:hover{
+    color: #fff;
+}
+
+.modal p {
+    font-size: 1em;
+    padding: 10px;
+    text-align: justify;
+}
+
+.list-group:hover {
+    cursor: pointer;
+}
+
+.flex {
+    display: none;
+}
+
+.navbar-brand {
+    width: 130px;
+}
+
+.nav-item {
+    font-size: 1rem;
+}
+
+.nav-item:hover{
+    border-bottom: 1px solid #fff;
+}
+
+
+.header_text {
+    height: 100%;
+}
+
+header h1 {
+    text-align: right;
+    font-size: 28px;
+}
+
+header p {
+    text-align: right;
+    font-size: 22px;
+}
+
+.text {
+    width: 60%;
+    margin-left: auto;
+}
+
+.header_text a {
+    background-color: #6a5b48;
+}
+
+.o-nas {
+    height: 700px;
+    background-image: url(../img/onas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.o-nas::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #312e31;
+    position: absolute;
+    opacity: .7;
+    z-index: 0;
+}
+
+.o-nas-btn>*,
+.o-nas-text {
+    z-index: 10;
+    position: relative;
+}
+
+.o-nas-text {
+    width: 63%;
+    text-align: justify;
+    color: #fff;
+    padding-top: 80px;
+    padding-left: 10%;
+}
+
+.o-nas-text h1 {
+    font-size: 32px;
+}
+
+.o-nas-text p {
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+.o-nas-btn {
+    margin-top: 240px;
+    padding-left: 10%;
+}
+
+.o-nas-btn a {
+    background-color: #6a5b48;
+}
+
+.about {
+    height: 700px;
+    background-image: url(../img/onas2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.about::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #312e31;
+    position: absolute;
+    opacity: .7;
+    z-index: 0;
+}
+
+/*  */
+
+.usligi {
+    height: 600px;
+    background: #0f0f0f;
+}
+
+.card {
+    border: none !important;
+    border-radius: none !important;
+    transition: 1s ease-in;
+    position: relative;
+    z-index: 10;
+    background: none !important;
+    cursor: pointer;
+}
+
+.card-body::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 53%;
+    background: #17161a;
+    position: absolute;
+    opacity: .5;
+    z-index: 0;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0 0 35px -9px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0 0 35px -9px rgba(255, 255, 255, 1);
+    box-shadow: 0 0 35px -9px rgba(255, 255, 255, 1);
+}
+
+.card:hover .card-text {
+    background: #6a5b48;
+    padding: 10px;
+    display: block;
+}
+
+.card-body p {
+    width: 100%;
+    margin: 0;
+    line-height: 22px;
+    font-size: 19px;
+    z-index: 10;
+}
+
+.card-text {
+    transition: 1s ease-in;
+    padding: 10px;
+}
+
+.card-body,
+.card-footer {
+    padding: 0 !important;
+    z-index: 10;
+}
+
+.card-footer p {
+    margin: 0;
+    font-size: 16px;
+    padding: 1rem;
+}
+
+
+.card:hover .card-footer {
+    background: #000;
+
+}
+
+
+.card-footer {
+    border-top: none !important;
+}
+
+.card .btn {
+    background: #6a5b48;
+    border-radius: none !important;
+    display: none;
+}
+
+.modal-footer button {
+    background: #6a5b48;
+}
+
+.modal-footer button:hover {
+    background: #6a5b48;
+}
+
+.card:hover .btn {
+    display: block;
+}
+
+.ul-text {
+    z-index: 10;
+    position: relative;
+    padding-left: 10%;
+}
+
+
+.kongres {
+    height: 700px;
+    background-image: url(../img/kongress.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.kongres h1 {
+    width: 100%;
+    font-size: 35px;
+}
+
+.organiz h1 {
+    width: 100%;
+    font-size: 35px;
+}
+
+.product h1 {
+    width: 100%;
+    font-size: 35px;
+}
+
+.kongres::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    background: #17161a;
+    position: absolute;
+    opacity: .9;
+    z-index: 0;
+}
+
+
+.list-group-item {
+    background: 0 0 !important;
+    border: none;
+    padding: .85rem 0rem;
+}
+
+.kongres,
+.organiz,
+.product .list-group li {
+    font-size: 22px;
+}
+
+.organiz {
+    height: 700px;
+    background-image: url(../img/organiz2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.organiz::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    background: #17161a;
+    position: absolute;
+    opacity: .9;
+    z-index: 0;
+}
+
+.border-bottom-one {
+    border-bottom: 2px solid #6a5b48;
+    width: 25% !important;
+}
+
+
+/*  */
+
+.product {
+    height: 700px;
+    background-image: url(../img/organiz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.product::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    background: #17161a;
+    position: absolute;
+    opacity: .9;
+    z-index: 0;
+}
+
+.product .list-group-item {
+    padding: .70rem 0rem;
+}
+
+.border-bottom-two {
+    border-bottom: 2px solid #6a5b48;
+    width: 70% !important;
+}
+
+
+/*  */
+
+.uslugi_kons {
+    height: 900px;
+    background-image: url(../img/usluga1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.uslugi_kons::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    background: #17161a;
+    position: absolute;
+    opacity: .9;
+    z-index: 0;
+}
+
+.uslugi_kons .list-group-flush {
+    font-size: 22px;
+}
+
+.uslugi_kons h1 {
+    width: 100%;
+}
+
+
+/*  */
+
+.portnyor {
+    height: 100%;
+    background-color: #FDFDFD;
+}
+
+
+/*  */
+
+.contact {
+    height: 100%;
+}
+
+.contact h1 {
+    /*color: rgb(15, 15, 15);*/
+    font-size: 50px;
+}
+
+.contact_wrap {
+    background-color: #FDFDFD;
+}
+
+.contact_wrap .btn {
+    background-color: #6a5b48;
+}
+
+.form-control {
+    border: 1px solid #6a5b48;
+}
+
+/*  */
+
+.phone {
+    height: 450px;
+    background: #0f0f0f;
+}
+
+.phone h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.phone p {
+    font-size: 32px;
+}
+
+.phone strong {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.phone img {
+    width: 150px;
+}
+
+/*  */
+.map {
+    background-color: #0f0f0f;
+}
+
+.map h3 {
+    font-size: 22px;
+}
+
+.map p {
+    font-size: 18px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/*  */
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 65px;
+    right: 20px;
+    display: none;
+    background: #6a5b48;
+}
+
+.back-to-top img {
+    width: 30px;
+    height: 30px;
+}
+
+/*  */
+
+.fixed-top.scrolled {
+    background-color: #17161a !important;
+    transition: background-color 200ms linear;
+}
+
+/*  */
+
+@media (max-width: 1200px) {
+    .nav-item {
+        font-size: 0.9rem;
+    }
+
+
+    .usligi h1 {
+        font-size: 32px;
+    }
+
+    .kongres h1 {
+        font-size: 32px;
+    }
+
+    .organiz h1 {
+        font-size: 32px;
+    }
+
+    .product h1 {
+        font-size: 30px;
+    }
+
+    .uslugi_kons h1 {
+        font-size: 32px;
+    }
+
+    .portnyor h1 {
+        font-size: 32px;
+    }
+
+    .kongres,
+    .organiz,
+    .product,
+    .uslugi_kons .list-group li {
+        font-size: 20px;
+    }
+
+
+    /*.organiz {*/
+    /*    height: 550px;*/
+    /*}*/
+
+    .organiz::after {
+        height: 550px;
+    }
+
+    .card-body p {
+        line-height: 20px;
+        font-size: 17px;
+    }
+
+    .card-footer p {
+        font-size: 15px;
+    }
+
+    .phone img {
+        width: 130px;
+    }
+
+    .phone p {
+        font-size: 28px;
+    }
+
+    .phone strong {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        margin-left: none !important;
+    }
+
+    .nav-item {
+        font-size: 0.7rem;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    .o-nas {
+        height: 600px;
+    }
+
+    .o-nas-text {
+        width: 100%;
+        text-align: left;
+        padding-top: 50px;
+    }
+
+    .o-nas-btn {
+        margin-top: 185px;
+    }
+
+    .kongres,
+    .organiz,
+    .uslugi_kons .list-group li {
+        font-size: 18px;
+    }
+
+    .product .list-group li {
+        font-size: 18px;
+    }
+
+    .about {
+        height: 600px;
+    }
+
+    /*.kongres {*/
+    /*    height: 600px;*/
+    /*}*/
+
+    /*.product {*/
+    /*    height: 600px;*/
+    /*}*/
+
+    .kongres h1 {
+        font-size: 29px;
+    }
+
+    /*.uslugi_kons {*/
+    /*    height: 800px;*/
+    /*}*/
+
+
+    .uslugi_kons::after {
+        height: 800px;
+    }
+
+
+    .uslugi_kons h1 {
+        margin-top: 2rem !important;
+        font-size: 28px;
+    }
+
+    .product h1 {
+        margin-top: 2rem !important;
+        font-size: 24px;
+    }
+
+    .portnyor {
+        height: 100%;
+    }
+
+    .contact h1 {
+        font-size: 40px;
+    }
+
+    .contact h2 {
+        font-size: 1.8rem;
+    }
+
+    .phone h1 {
+        font-size: 28px;
+    }
+
+    .phone img {
+        width: 100px;
+    }
+
+    .phone p {
+        font-size: 24px;
+    }
+
+    .phone strong {
+        font-size: 27px;
+    }
+
+    .map h4 {
+        font-size: 1.3rem;
+    }
+
+    .map p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav {
+        background: #1d1c21;
+    }
+
+    header p {
+        font-size: 20px;
+    }
+
+    .navbar-brand {
+        width: 95px;
+    }
+
+    .text {
+        width: 95%;
+    }
+
+    .usligi {
+        height: 100%;
+    }
+
+    .usligi h1 {
+        font-size: 30px;
+    }
+
+    .kongres-icon img {
+        width: 30px;
+    }
+
+    .kongres h1 {
+        font-size: 20px;
+    }
+
+    .kongres,
+    .organiz,
+    .usligi,
+    .list-group li {
+        font-size: 16px;
+    }
+
+    .organiz h1 {
+        font-size: 17px;
+    }
+
+    .product h1 {
+        font-size: 15px;
+    }
+
+    .product .list-group {
+        margin-top: 1.5rem !important;
+    }
+
+    .product .list-group li {
+        font-size: 15px;
+    }
+
+    .uslugi_kons h1 {
+        font-size: 16px;
+    }
+
+    .uslugi_kons .list-group {
+        margin-top: 1rem !important;
+    }
+
+    .uslugi_kons .list-group li {
+        font-size: 15px;
+    }
+
+    .portnyor h1 {
+        font-size: 25px;
+    }
+
+    .o-nas-text p {
+        font-size: 13px;
+        margin-top: 70px;
+    }
+
+    .o-nas-btn {
+        margin-top: 140px;
+    }
+
+    .card-body::after {
+        height: 100%;
+    }
+
+    .card {
+        margin-bottom: 2rem;
+    }
+
+    .contact_wrap {
+        padding: 2rem !important;
+    }
+
+    .contact h2 {
+        font-size: 1.4rem;
+    }
+
+    .phone h1 {
+        font-size: 26px;
+    }
+
+    .phone {
+        height: 350px;
+    }
+
+    .phone img {
+        width: 70px;
+    }
+
+    .phone p {
+        font-size: 20px;
+    }
+
+    .phone strong {
+        font-size: 16px;
+    }
+
+    .map iframe {
+        height: 250px !important;
+    }
+
+    .map h4 {
+        font-size: 1rem;
+    }
+
+    .map p {
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    header h1 {
+        font-size: 21px;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+
+    .o-nas-text h1 {
+        font-size: 28px;
+    }
+
+    .o-nas-text p {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    /* .kongres {
+        height: 550px;
+    }
+
+    .kongres::after {
+        height: 550px;
+    } */
+    .kongres {
+        height: 500px;
+    }
+
+    .kongres h1 {
+        font-size: 11px;
+    }
+
+    .kongres-icon img {
+        width: 20px;
+    }
+
+    .kongres .list-group {
+        padding: 1.5rem 0rem;
+    }
+
+    .kongres .list-group li {
+        font-size: 11px;
+    }
+
+    /* .product {
+        height: 550px;
+    } */
+    .product .list-group {
+        margin-top: 0.9rem !important;
+    }
+
+    .product .list-group li {
+        font-size: 10px;
+    }
+
+    .organiz {
+        height: 410px;
+    }
+
+    .organiz .list-group li {
+        font-size: 11px;
+    }
+
+    .organiz .list-group {
+        margin-top: 0.9rem !important;
+    }
+
+    .organiz h1 {
+        font-size: 11px;
+    }
+
+    .product {
+        height: 540px;
+    }
+
+    .product h1 {
+        font-size: 10px;
+    }
+
+    .uslugi_kons {
+        height: 750px;
+    }
+
+    .uslugi_kons h1 {
+        font-size: 11px;
+    }
+
+    .uslugi_kons .list-group li {
+        font-size: 9px;
+    }
+
+    .portnyor {
+        height: 100%;
+    }
+
+    .portnyor h1 {
+        font-size: 20px;
+    }
+
+    
+    .contact h1 {
+        font-size: 33px;
+    }
+
+    .contact h2 {
+        font-size: 1rem;
+    }
+
+    .contact_wrap {
+        padding: 1.4rem !important;
+    }
+
+    .phone {
+        height: 300px;
+    }
+
+    .phone h1 {
+        font-size: 20px;
+    }
+
+    .phone img {
+        width: 50px;
+    }
+
+    .phone p {
+        font-size: 15px;
+    }
+
+    .phone strong {
+        font-size: 11px;
+    }
+
+    footer p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer_text {
+        margin-bottom: 0;
+        margin-top: 0 !important;
+    }
+}
+
+
+@media (max-width: 376px) {
+
+    header h1 {
+        font-size: 15px;
+    }
+    .list-group-item {
+        padding: .75rem 0rem;
+    }
+
+    /*.o-nas-text {*/
+    /*    width: 93%;*/
+    /*}*/
+
+    .o-nas-text p {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    .o-nas-btn {
+        margin-top: 100px;
+    }
+
+    .kongres h1 {
+        font-size: 16px;
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .kongres .list-group {
+        margin-top: 2rem !important;
+    }
+
+    .ul-text {
+        margin-right: 0 !important;
+    }
+
+    .organiz h1 {
+        font-size: 16px;
+        margin-top: 1rem !important;
+    }
+
+    .organiz .list-group {
+        margin-top: 2rem !important;
+    }
+
+    .product h1 {
+        margin-top: 1rem !important;
+    }
+
+    .product .list-group {
+        margin-top: 1rem !important;
+    }
+
+    .product .list-group li {
+        font-size: 11px;
+    }
+
+    .uslugi_kons h1 {
+        font-size: 13px;
+        margin-top: 1rem !important;
+    }
+
+    .uslugi_kons .list-group li {
+        font-size: 11px;
+    }
+
+    .phone img {
+        width: 40px;
+    }
+
+    .phone p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .phone strong {
+        font-size: 11px;
+    }
+
+    .contact h1 {
+        font-size: 26px;
+    }
+
+    .map h4 {
+        font-size: 0.8rem;
+    }
+
+    .map p {
+        font-size: 9px;
+    }
+
+    footer p {
+        font-size: 8px;
+    }
+}
